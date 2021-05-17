@@ -3,10 +3,10 @@ package com.java.Day4;
 public class CharacterEx2 {
 
 	public static void main(String[] args) {
-		char ch1 = 'ÇÑ';
+		char ch1 = 'í•œ';
 		char ch2 = '\uD55C';
 		
-		System.out.println(ch1); //ÇÑ
-		System.out.println(ch2); //ÇÑ
+		System.out.println(ch1); //í•œ
+		System.out.println(ch2); //í•œ
 	}
 }
