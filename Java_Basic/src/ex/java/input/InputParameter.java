@@ -14,7 +14,7 @@ public class InputParameter {
 		System.out.println(args[1] instanceof String); // true
 		System.out.println(args[2] instanceof String); // true
 		
-		// ¼ıÀÚÈ­ ÇØÁÖ±â
+		// ìˆ«ìí™” í•´ì£¼ê¸°
 		int a = Integer.parseInt(args[0]);
 		int b = Integer.parseInt(args[1]);
 		int c = Integer.parseInt(args[2]);
