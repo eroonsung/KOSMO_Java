@@ -6,7 +6,7 @@ public class CharacterEx3 {
 		int b = -66;
 		
 		char a2 = 65;
-		// char b2 = -66; // 오류 발생
+		// char b2 = -66; 
 		
 		System.out.println((char)a); 
 		System.out.println((char)b); 
