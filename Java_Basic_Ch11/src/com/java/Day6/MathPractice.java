@@ -10,8 +10,8 @@ public class MathPractice {
 		System.out.println("N의 값을 입력하세요.");
 		int num = sc.nextInt();
 		
-		double sum = 0;
 		double result;
+		double sum = 0;
 		
 		for(int i=1; i<=num; i++) {
 			result = Math.pow(2*i, (2*i)-1);
