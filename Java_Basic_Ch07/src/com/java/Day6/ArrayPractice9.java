@@ -1,4 +1,4 @@
-package HW_210520;
+package com.java.Day6;
 
 import java.util.Scanner;
 
