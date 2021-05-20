@@ -7,7 +7,7 @@ public class HW3_Ternary {
 		Scanner sc = new Scanner(System.in);
 		
 		String height;
-		int weight;
+		String weight;
 		//BMI : Body Mass Index
 		String BMI ="정상";
 		
@@ -21,8 +21,12 @@ public class HW3_Ternary {
 			}
 			
 			System.out.println("몸무게를 입력하세요.");
-			weight = sc.nextInt();
+			weight = sc.next();
 			
+			if (weight.equals("q") ||weight.equals("-1")) {
+				System.out.println("종료");
+				break;
+			}
 			
 			int result = weight+100-Integer.parseInt(height);
 						
