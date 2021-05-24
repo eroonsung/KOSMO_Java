@@ -14,6 +14,7 @@ public class HW5 {
 		}
 		
 		
+		// 버블 정렬(내림차순 정렬)
 		for(int i = 0; i < array.length; i++) {
 			for(int j = 0; j < array.length-i-1; j++) {
 				if(array[j]<array[j+1]) {
