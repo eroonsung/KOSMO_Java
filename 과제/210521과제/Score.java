@@ -1,6 +1,6 @@
 package HW_210521;
 
 public class Score {
-	String[] subject;
-	int[] score;
+	String subject;
+	int score;
 }
